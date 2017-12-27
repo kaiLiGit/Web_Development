@@ -1,0 +1,24 @@
+body {
+	padding-top: 70px;
+}
+
+.jumbotron {
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+
+.navbar-inverse {
+	background: #2c3e50;
+}
+
+/*using bootstrap class to override the color since 
+bootstrap classes are more specific*/
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+/*using bootstrap class to override the color since 
+bootstrap classes are more specific*/
+.navbar-inverse .navbar-brand {
+	color: white;
+}

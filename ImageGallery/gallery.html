@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+
+	<!-- Custom Style Link should come after the Bootstrap CDN link to override the 
+	stylings specified in bootstrap library -->
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<!-- set class to container for optimum spacing for the components within the navBar-->
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Hamburger collapse icon for toggling -->
+				<!-- Brand and toggle get grouped for better mobile display --> 
+	      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-custom" aria-expanded="false">
+	        		<span class="sr-only">Toggle navigation</span>
+	        		<span class="icon-bar"></span>
+	        		<span class="icon-bar"></span>
+	        		<span class="icon-bar"></span> 
+	      		</button> 
+				<!-- End of hamburger collage icon for toggling -->
+
+				<!-- href="#" doesn't specify an id name, but does have a corresponding location - the top of the page. Clicking an anchor with href="#" will move the scroll position to the top. -->
+				<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Images</a>
+			</div>
+
+			<!-- hide all components under the div collapse group -->
+			<div class="collapse navbar-collapse" id="bs-nav-custom">
+			<!-- nav within navbar -->
+			<ul class="nav navbar-nav">
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+
+			<!-- new group of contents for the right side of the navBar -->
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Sign Up</a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+			</div> <!-- nav-collapse end div -->
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="jumbotron">
+			<!-- import an icon from FontAwesome -->
+			<h1><i class="fas fa-camera-retro"></i> The Image Gallery</h1>
+			<p>A gallery of beautiful photos shot by many great photographers!</p>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1435771112039-1e5b2bcad966?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1439524970634-649c37a69e5c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1450&h=825&fit=crop&s=bfda9916c885869b43b70738693428d9">
+				</div>
+			</div> 
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1480585185531-5cd1470d9a95?auto=format&fit=crop&w=1500&q=80">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1504679194239-39f4b4172e0c?auto=format&fit=crop&w=1500&q=80">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1505219715252-7a2cc405717f?auto=format&fit=crop&w=1500&q=80">
+				</div>
+			</div> 
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1434465152547-85aae19778cf?auto=format&fit=crop&w=1500&q=80">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1506361958025-7a163e703310?auto=format&fit=crop&w=1500&q=80">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1415298910336-daa47babb3cc?auto=format&fit=crop&w=1500&q=80">
+				</div>
+			</div> 
+
+		</div>
+	</div>
+	
+
+	<!-- navBar relies on these javaScript files -->
+	<!-- Note: import jQuery first before bootstrap, because bootstrap relies on jQuery -->
+
+	<!-- jQuery CDN -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  		crossorigin="anonymous"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
