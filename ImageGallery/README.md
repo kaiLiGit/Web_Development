@@ -3,4 +3,4 @@
 
 ## Here is the screen shots of the finished webpage
 ![Screenshot1](https://github.com/kaiLiGit/Web_Development/blob/master/ImageGallery/gallery1.png)
-![Screenshot2](Web_Development/ImageGallery/gallery2.png)
+![Screenshot2](https://github.com/kaiLiGit/Web_Development/blob/master/ImageGallery/gallery2.png)
