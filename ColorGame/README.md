@@ -6,4 +6,5 @@
 > The color of the squares and the buttons fades out in the "stripe" in white which takes up the entire row of the window. 
 > The color of the squares are randomized when the webpage reloads and one of the game mode buttons selected and the new game 
 > button is clicked. A screenshot of the initial webpage load is shown: 
-![initial load]https://github.com/kaiLiGit/Web_Development/blob/master/ColorGame/ss1.png)
+
+![initial load](https://github.com/kaiLiGit/Web_Development/blob/master/ColorGame/ss1.png)
