@@ -38,6 +38,10 @@ button:hover {
 	background : steelblue;
 }
 
+.nl {
+	display: block;
+}
+
 #message {
 	/*add block spacing to span element */
 	display : inline-block;
