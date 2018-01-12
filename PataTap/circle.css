@@ -4,6 +4,15 @@ canvas	{
 	background: black;
 }
 
+#msg {
+	color         : white;
+	font-weight   : bold; 
+	background    : black;  
+	padding-top   : 10px;
+	padding-left  : 10px;
+	margin        : 0;
+}
+
 body, html {
 	height    : 100%;
 	margin    : 0;

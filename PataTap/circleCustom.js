@@ -220,7 +220,11 @@
 			keyData[event.key].sound.play();
 			cirArr.push(newCircle);
 		} 
-		
+
+		if ($("#msg")) {
+			$("#msg").css("display", "none");
+			$("#msg").remove();
+		} 
 	}
 
 	function onFrame(event) {
