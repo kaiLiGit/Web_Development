@@ -1,6 +1,7 @@
 # PataTap Clone Project 
 ## Motivation:
- * Get familiarity with Paper.js and Howler.js and sound from Neuronal Synchrony, or learn to use third-party libraries
+ * Get familiarity with [Paper.js](http://paperjs.org/) and [Howler.js](https://howlerjs.com/) 
+  and sound from [Neuronal Synchrony](https://github.com/jonobr1/Neuronal-Synchrony), or learn to use third-party libraries
 ## Description
 > This is a follow-along project ([course link](https://www.udemy.com/the-web-developer-bootcamp/)).
 > The main structure of the code is the same but with some twist of mine. I added a grid of randomized 
@@ -12,4 +13,4 @@
     >  select the circles.html file
     
 ## ScreenShot of the project (Photo credit to [dargacode](http://blog.dargacode.com/post/142158552726/patatap-clone-project)): 
-![SS](http://78.media.tumblr.com/f326a36336b2c7fc76ee5bafed4dbef8/tumblr_inline_o51imkn2371tvc5hi_1280.png);
+![SS](http://78.media.tumblr.com/f326a36336b2c7fc76ee5bafed4dbef8/tumblr_inline_o51imkn2371tvc5hi_1280.png)
