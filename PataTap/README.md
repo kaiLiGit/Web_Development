@@ -3,7 +3,7 @@
  * Get familiarity with [Paper.js](http://paperjs.org/) and [Howler.js](https://howlerjs.com/) 
   and sound from [Neuronal Synchrony](https://github.com/jonobr1/Neuronal-Synchrony), or learn to use third-party libraries
 ## Description
-> This is a follow-along project ([course link](https://www.udemy.com/the-web-developer-bootcamp/)).
+> This is a follow-along project ([Web Development course from Udemy](https://www.udemy.com/the-web-developer-bootcamp/)).
 > The main structure of the code is the same but with some twist of mine. I added a grid of randomized 
 > circles / rectangles centered on the canvas. 
 ## How to run this program on Mac OS: 
