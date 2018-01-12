@@ -12,6 +12,8 @@
 >  ```python -m SimpleHTTPServer```
 >  3. Open up the browser and navigate to ```http://localhost:8000```
 >  4. select the circles.html file in the web-page
+
+### [live app](https://codepen.io/kaiLiGit/project/editor/DnYJMz#0)
     
 ## ScreenShot of the project (Photo credit to [dargacode](http://blog.dargacode.com/post/142158552726/patatap-clone-project)): 
 ![SS](http://78.media.tumblr.com/f326a36336b2c7fc76ee5bafed4dbef8/tumblr_inline_o51imkn2371tvc5hi_1280.png)
