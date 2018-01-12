@@ -10,7 +10,7 @@
 >  1. To fix the Cross Origin Errors when launching up the web app, use the terminal to run a python local server and then start up the web app that way. See steps:
 >  2. Direct your path to the project folder in the terminal run : 
 >  ```python -m SimpleHTTPServer```
->  3. Open up the browser and navigate to http://localhost:8000
+>  3. Open up the browser and navigate to ```http://localhost:8000```
 >  4. select the circles.html file in the web-page
     
 ## ScreenShot of the project (Photo credit to [dargacode](http://blog.dargacode.com/post/142158552726/patatap-clone-project)): 
