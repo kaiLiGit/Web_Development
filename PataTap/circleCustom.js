@@ -41,6 +41,7 @@
 
 	var cirArr = []; 
 	
+	// dictionary object which helps set up the properties of each key press
 	var keyData = {
 			q: {
 				sound: new Howl({
