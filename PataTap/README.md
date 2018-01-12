@@ -8,7 +8,8 @@
 > circles / rectangles centered on the canvas. 
 ## How to run this program on Mac OS: 
 >  To fix the Cross Origin Errors when launching up the web app, use the terminal to run a python local server and then start up the web app that way. See steps:
->  Direct your path to the project folder in the terminal run : ```python -m SimpleHTTPServer```
+>  Direct your path to the project folder in the terminal run : 
+>  ```python -m SimpleHTTPServer```
 >  Open up the browser and navigate to http://localhost:8000
 >  select the circles.html file
     
